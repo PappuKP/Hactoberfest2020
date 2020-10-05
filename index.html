@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Animation</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesome js file -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body>
+    <form>
+        <!-- username -->
+
+        <div class="name">
+            <div class="ques">
+                <p> What should we call you ?</p>
+
+            </div>
+            <!-- <i class="fas fa-user"></i> -->
+            <input id="name-enter" type="text" placeholder="Type your anwser here." required autofocus
+                autocomplete="off" />
+
+            <i id="button-1" class="fas fa-check-square"><button>OK</button></i>
+            <span class="enterBtn">press enter </span>
+            <!-- <i class="fas fa-check-square"><button id="button-1">OK</button>press Enter</i> -->
+
+        </div>
+
+        <div class="email innactive">
+            <div class="ques">
+                <p> What is you email ?</p>
+
+            </div>
+            <!-- <i class="fas fa-user"></i> -->
+            <input id="email-enter" type="email" placeholder="Type your anwser here." required autofocus
+                autocomplete="off" />
+
+            <i id="button-1" class="fas fa-check-square"><button>OK</button></i>
+            <span class="enterBtn">press enter</span>
+            <!-- <i class="fas fa-check-square"><button id="button-1">OK</button>press Enter</i> -->
+
+        </div>
+
+
+        <div class="password innactive">
+            <div class="ques">
+                <p>What is your password?</p>
+
+            </div>
+            <!-- <i class="fas fa-user"></i> -->
+            <input id="password-enter" type="password" placeholder="Type your anwser here." required autofocus
+                autocomplete="off" />
+
+            <i id="button-1" class="fas fa-check-square"><button>OK</button></i>
+            <span class="enterBtn">press enter</span>
+            <!-- <i class="fas fa-check-square"><button id="button-1">OK</button>press Enter</i> -->
+
+        </div>
+
+
+        <div class="finish innactive">
+            <div class="ques">
+                <p> Give us you feedbacks ?</p>
+
+            </div>
+            <!-- <i class="fas fa-user"></i> -->
+            <input id="user-feed" type="text" placeholder="Type your anwser here." required autofocus
+                autocomplete="off" />
+
+            <i id="button-1" class="fas fa-check-square"><button>OK</button></i>
+            <span class="enterBtn">press enter </span>
+            <!-- <i class="fas fa-check-square"><button id="button-1">OK</button>press Enter</i> -->
+
+        </div>
+
+        <div class="final innactive">
+            <p>Thank You! We will reach you soon.</p>
+          
+        </div>
+    </form>
+
+    <!-- js file -->
+    <script src="app.js"></script>
+</body>
+
+</html>
